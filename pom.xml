@@ -193,6 +193,8 @@
             <feature>log</feature>
             <feature>shell</feature>
             <feature>bundle</feature>
+            <feature>feature</feature>
+            <feature>system</feature>
             <feature>scr</feature>
             <feature>management</feature>
             <feature>aries-blueprint</feature>
