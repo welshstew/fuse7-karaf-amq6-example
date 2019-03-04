@@ -182,7 +182,7 @@
         </executions>
         <configuration>
           <javase>1.8</javase>
-          <karafVersion>v4x</karafVersion>
+          <!--<karafVersion>v4x</karafVersion>-->
           <framework>framework</framework>
           <useReferenceUrls>true</useReferenceUrls>
           <archiveTarGz>false</archiveTarGz>
@@ -192,6 +192,8 @@
             <feature>jaas</feature>
             <feature>log</feature>
             <feature>shell</feature>
+            <feature>bundle</feature>
+            <feature>scr</feature>
             <feature>management</feature>
             <feature>aries-blueprint</feature>
             <feature>camel-blueprint</feature>
