@@ -18,9 +18,6 @@
 
     <fuse.version>7.2.0.fuse-720020-redhat-00001</fuse.version>
 
-    
-    <bom.version>7.2.0.fuse-720020-redhat-00001</bom.version>
-
     <!-- maven plugin versions -->
     <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
@@ -46,7 +43,7 @@
       <dependency>
         <groupId>org.jboss.redhat-fuse</groupId>
         <artifactId>fuse-karaf-bom</artifactId>
-        <version>${bom.version}</version>
+        <version>${fuse.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
